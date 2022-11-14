@@ -1,0 +1,13 @@
+package Solution;
+
+class Solution {
+    public static long solution(long n) {
+        long answer = 0;
+        double x=Math.sqrt(n);
+        	if(x%1>0) {
+        		return -1;
+        	}else {answer=(long) Math.pow(x+1, 2);
+    		return answer;}
+        	
+    }
+}
